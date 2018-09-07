@@ -1,12 +1,14 @@
 body {
-  margin: 0px auto;
-  background-image: url("background.png");
-
+    margin: 0px auto;
+    background-image: url("background.png");
+    background-size: 100% ;
+    position: fixed;
 }
 
   #input{
   width: 320px;
   background: #fff;
+  font-style: Sans-serif;
   border: 1px solid black;
   box-sizing: border-box;
   position: fixed;
@@ -18,6 +20,7 @@ body {
 #button{
   background-color: blue;
   width: 320px;
+  font-style: Sans-serif;
   position: fixed;
   left: 40%;
   color: white;
@@ -53,17 +56,17 @@ body {
 }
 
 #score{
-  /* background-color: red; */
+
   width: 120px;
-  color: white;
   position: fixed;
   left: 10%;
   height:25px;
   top:50px;
+  color: white;
 }
 
 #form{
-  /* background-color: yellow; */
+
   width: 100%;
   height: 740px;
 
